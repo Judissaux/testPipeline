@@ -11,7 +11,7 @@ class TestCalcul(unittest.TestCase):
 
     def test_multiplier(self):
         self.assertEqual(multiplier(2, 3), 6)
-        self.assertEqual(multiplier(0, 3), 5)
+        self.assertEqual(multiplier(0, 3), 0)
         self.assertEqual(multiplier(-2, 3), -6)
 
     def test_soustraire(self):
